@@ -19,12 +19,12 @@ namespace Tyuiu.RedikultsevaAA.Sprint6.Task0.V23
             InitializeComponent();
         }
 
-        private void buttonDone_Click(object sender, EventArgs e)
+        private void buttonDone_RAA_Click(object sender, EventArgs e)
         {
             DataService ds = new DataService();
             try
             {
-                textBoxResult.Text = Convert.ToString(ds.Calculate(Convert.ToInt32(textBoxVarX.Text)));
+                textBoxResult_RAA.Text = Convert.ToString(ds.Calculate(Convert.ToInt32(textBoxVarX_RAA.Text)));
             }
             catch
             {
@@ -32,18 +32,17 @@ namespace Tyuiu.RedikultsevaAA.Sprint6.Task0.V23
             }
         }
 
-        private void textBoxVarX_KeyPress(object sender, KeyEventHandler e)
+        private void buttonHelp_RAA_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Таск 0 выполнила студентка группы АСОиУб-23-1 Редикульцева Анастасия Алексеевна", "Сообщение");
+        }
+
+        private void textBoxVarX_KeyPress(object sender, KeyPressEventArgs e)
         {
             if ((e.KeyChar <= 47 || e.KeyChar >= 58) && (e.KeyChar != ',') && (e.KeyChar != 8))
             {
                 e.Handled = true;
             }
         }
-
-        private void buttonHelp_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Таск 0 выполнила студентка группы АСОиУб-23-1 Редикульцева Анастасия Алексеевна", "Сообщение");
-        }
-    }
     }
 }
