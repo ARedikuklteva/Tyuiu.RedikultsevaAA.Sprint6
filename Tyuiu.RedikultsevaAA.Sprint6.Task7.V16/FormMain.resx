@@ -117,19 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="labelPhoto_RAA.Text" xml:space="preserve">
-    <value>Разработчик: Редикульцева А.А.
-группа АСОиУб-23-1
-
-Программа разработана в рамках изучения языка C#
-
-Тюменский индустриальный университет (с) 2023
-Высшая школа цифровых технологий (с) 2023
-
-Внутреннее имя: Tyuiu.RedikultsevaAA.Sprint6.Task6.V13
-</value>
-  </data>
-  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
 </root>

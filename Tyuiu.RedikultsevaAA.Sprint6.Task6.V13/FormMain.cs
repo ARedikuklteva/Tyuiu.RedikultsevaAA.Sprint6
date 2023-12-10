@@ -24,8 +24,7 @@ namespace Tyuiu.RedikultsevaAA.Sprint6.Task6.V13
 
         private void buttonFile_RAA_Click(object sender, EventArgs e)
         {
-            string str = "";
-            textBoxOut_RAA.Text = ds.CollectTextFromFile(str, openFilePath);
+            textBoxOut_RAA.Text = ds.CollectTextFromFile(openFilePath);
         }
 
         private void buttonDone_RAA_Click(object sender, EventArgs e)
